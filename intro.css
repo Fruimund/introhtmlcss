@@ -23,6 +23,16 @@ body {
     float: left;
 }
 
+.half-width3 {
+    width: 500px;
+    float: left;
+}
+
+.half-width4 {
+    width: 700px;
+    float: left;
+}
+
 /***** HEADER *****/
 
 #logo {
@@ -66,7 +76,8 @@ h3 {
 }
 
 #icon {
-    height: 100px;
-    width: 100px;
-    margin: 15px 0px 0px 0px;
+    height: 50px;
+    width: 50px;
+    margin: 80px 704px 0px 0px;
+    float: right;
 }
