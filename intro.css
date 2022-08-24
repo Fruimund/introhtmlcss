@@ -1,0 +1,72 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width1 {
+    width: 200px;
+    float: left;
+}
+
+.half-width2 {
+    width: 1000px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+#logo {
+    height: 220px;
+    width: 220px;
+    margin: 40px 0px 90px 0px;
+}
+
+h1 {
+    color: rgb(208, 80, 255);
+    font-size: 90px;
+    float: right;
+    margin: 60px 340px 0px 0px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/***** MAIN *****/
+
+h2 {
+    color: rgb(229, 181, 247);
+    font-size: 30px;
+}
+
+
+p {
+    color: rgb(229, 181, 247);
+}
+
+ul {
+    color: rgb(229, 181, 247);
+}
+
+
+/***** FOOTER *****/
+
+h3 {
+    color: rgb(229, 181, 247);
+    margin: 90px 0px 0px 0px;
+    font-size: 30px;
+}
+
+#icon {
+    height: 100px;
+    width: 100px;
+    margin: 15px 0px 0px 0px;
+}
