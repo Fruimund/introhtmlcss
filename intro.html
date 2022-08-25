@@ -9,6 +9,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <style>
+        /* unvisited link */
+        a:link {
+          color: rgb(59, 200, 255);
+          text-decoration: none;
+        }
+        
+        /* visited link */
+        a:visited {
+          color: rgb(0, 120, 168);
+          text-decoration: none;
+        }
+        
+        /* mouse over link */
+        a:hover {
+          color: red;
+          text-decoration: none;
+        }
+        
+        /* selected link */
+        a:active {
+          color: yellow;
+          text-decoration: none;
+        } 
+    </style>
 </head>
 
 <body>
@@ -21,27 +46,42 @@
                 <h1>< WELCOME /></h1>
             </div>
         </div>
+        <nav id="navlink" class="half-width2">
+            <ul id="navlink2">
+              <li><a href="#contact">Get in touch with me!</a></li>
+            </ul>
+          </nav>
     </header>
 
     <main>
-        <div class="full-width">
-        <h2>This site is a project for the HTML & CSS intro class at Vefskólinn.</h2>
-        <p>The objectives of the project are to:</p>
-        <ul>
-            <li>Create a one-page website in HTML & CSS</li>
-            <li>Submit the code to GitHub</li>
-            <li>Publish the website</li>
+        <section class="full-width">
+            <h2>This site is a project for the HTML & CSS intro class at Vefskólinn.</h2>
+            <p>The objectives of the project are to:</p>
+            <ul>
+                <li>Create a one-page website in HTML & CSS</li>
+                <li>Submit the code to GitHub</li>
+                <li>Publish the website</li>
         </ul>
-        </div>
+        </section>
+        <section class="full-width">
+            <h2 id="secondsectionheadline">Learning resources</h2>
+            <p>Here are some great resources for learning HTML & CSS:</p>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/default.asp">HTML tutorials from W3</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp">CSS tutorials from W3</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">HTML tutorials from MDN</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">CSS tutorials from MDN</a></li>
+            </ul>
+        </section>
     </main>
 
     <footer>
         <div class="full-width">
             <div class="half-width3">
-                <h3>Get in touch with me on GitHub ≈</h3>
+                <h3 id="contact">Feel free to connect with me on GitHub ≈</h3>
             </div>
             <div class="half-width4">
-                 <a href="https://github.com/Fruimund">
+                 <a href="https://github.com/fruimundur">
                  <img src="img/github.png" alt="github icon" id="icon">
                  </a>
             </div>
